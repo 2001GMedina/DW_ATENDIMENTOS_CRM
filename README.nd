@@ -1,0 +1,33 @@
+# DW_ATENDIMENTOS_CRM
+
+📌 Features
+
+Connects to a SQL Server production database.
+
+Executes a query to extract all CRM-registered appointments.
+
+Generates a dataset with all scheduled appointments.
+
+Connects to an Azure Data Warehouse.
+
+Inserts the appointments dataset into a table in the Data Warehouse.
+
+Dashboard developed in Power BI.
+
+Dashboard is published and connected directly to Azure.
+
+Fully automated updates.
+
+🛠️ Technologies Used
+
+Python 3.x
+
+pandas — for data manipulation and table creation.
+
+pyodbc — for connecting to SQL Server/Oracle databases.
+
+Jenkins / cron — for automation scheduling.
+
+Power BI — for data visualization.
+
+Azure SQL Database
