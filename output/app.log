@@ -1,0 +1,80 @@
+2025-09-04 17:15:15 [INFO] - Starting the data processing.
+2025-09-04 17:15:15 [ERROR] - Error during processing: CONN_STRING environment variable is not set.
+Traceback (most recent call last):
+  File "C:\Users\gabri\Downloads\DW_ATENDIMENTOS_CRM\main.py", line 30, in main
+    raise ValueError("CONN_STRING environment variable is not set.")
+ValueError: CONN_STRING environment variable is not set.
+2025-09-04 17:16:22 [INFO] - Starting the data processing.
+2025-09-04 17:16:22 [ERROR] - Error during processing: CONN_STRING environment variable is not set.
+Traceback (most recent call last):
+  File "C:\Users\gabri\Downloads\DW_ATENDIMENTOS_CRM\main.py", line 30, in main
+    raise ValueError("CONN_STRING environment variable is not set.")
+ValueError: CONN_STRING environment variable is not set.
+2025-09-04 17:18:25 [INFO] - Starting the data processing.
+2025-09-04 17:18:25 [ERROR] - Error during processing: CONN_STRING environment variable is not set.
+Traceback (most recent call last):
+  File "C:\Users\gabri\Downloads\DW_ATENDIMENTOS_CRM\main.py", line 30, in main
+    raise ValueError("CONN_STRING environment variable is not set.")
+ValueError: CONN_STRING environment variable is not set.
+2025-09-04 17:21:21 [INFO] - Starting the data processing.
+2025-09-04 17:21:21 [ERROR] - Error during processing: CONN_STRING environment variable is not set.
+Traceback (most recent call last):
+  File "C:\Users\gabri\Downloads\DW_ATENDIMENTOS_CRM\main.py", line 30, in main
+    raise ValueError("CONN_STRING environment variable is not set.")
+ValueError: CONN_STRING environment variable is not set.
+2025-09-04 17:22:14 [INFO] - Starting the data processing.
+2025-09-04 17:22:14 [ERROR] - Error during processing: CONN_STRING environment variable is not set.
+Traceback (most recent call last):
+  File "C:\Users\gabri\Downloads\DW_ATENDIMENTOS_CRM\main.py", line 30, in main
+    raise ValueError("CONN_STRING environment variable is not set.")
+ValueError: CONN_STRING environment variable is not set.
+2025-09-04 17:23:54 [INFO] - Starting the data processing.
+2025-09-04 17:23:54 [ERROR] - Error during processing: CONN_STRING environment variable is not set.
+Traceback (most recent call last):
+  File "C:\Users\gabri\Downloads\DW_ATENDIMENTOS_CRM\main.py", line 30, in main
+    raise ValueError("CONN_STRING environment variable is not set.")
+ValueError: CONN_STRING environment variable is not set.
+2025-09-04 17:39:43 [INFO] - Iniciando o processo de atualização de dados.
+2025-09-04 17:39:43 [INFO] - Carregando query SQL.
+2025-09-04 17:39:43 [ERROR] - Erro durante o processo: [Errno 2] No such file or directory: 'C:\\Users\\gabri\\Downloads\\DW_ATENDIMENTOS_CRM\\queries\\inadimplentes.sql'
+Traceback (most recent call last):
+  File "C:\Users\gabri\Downloads\DW_ATENDIMENTOS_CRM\main.py", line 30, in main
+    SQL_QUERY = load_query(QUERY_PATH)
+  File "C:\Users\gabri\Downloads\DW_ATENDIMENTOS_CRM\main.py", line 10, in load_query
+    with open(file_path, 'r', encoding='utf-8') as file:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\gabri\\Downloads\\DW_ATENDIMENTOS_CRM\\queries\\inadimplentes.sql'
+2025-09-04 17:41:38 [INFO] - Iniciando o processo de atualização de dados.
+2025-09-04 17:41:38 [INFO] - Carregando query SQL.
+2025-09-04 17:41:38 [ERROR] - Erro durante o processo: [Errno 2] No such file or directory: 'C:\\Users\\gabri\\Downloads\\DW_ATENDIMENTOS_CRM\\queries\\inadimplentes.sql'
+Traceback (most recent call last):
+  File "C:\Users\gabri\Downloads\DW_ATENDIMENTOS_CRM\main.py", line 30, in main
+    SQL_QUERY = load_query(QUERY_PATH)
+  File "C:\Users\gabri\Downloads\DW_ATENDIMENTOS_CRM\main.py", line 10, in load_query
+    with open(file_path, 'r', encoding='utf-8') as file:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\gabri\\Downloads\\DW_ATENDIMENTOS_CRM\\queries\\inadimplentes.sql'
+2025-09-04 18:13:56 [INFO] - Iniciando o processo de atualização de dados.
+2025-09-04 18:13:56 [INFO] - Carregando query SQL.
+2025-09-04 18:13:56 [INFO] - Conectando ao SQL Server.
+2025-09-04 18:13:56 [ERROR] - Erro durante o processo: argument 1 must be a string or unicode object
+Traceback (most recent call last):
+  File "C:\Users\gabri\Downloads\DW_ATENDIMENTOS_CRM\main.py", line 33, in main
+    conn = connect_sql_server(CONN_STRING)
+  File "C:\Users\gabri\Downloads\DW_ATENDIMENTOS_CRM\mods\sql_server.py", line 5, in connect_sql_server
+    conn = pyodbc.connect(conn_str)
+TypeError: argument 1 must be a string or unicode object
+2025-09-04 18:14:51 [INFO] - Iniciando o processo de atualização de dados.
+2025-09-04 18:14:51 [INFO] - Carregando query SQL.
+2025-09-04 18:14:51 [INFO] - Conectando ao SQL Server.
+2025-09-04 18:14:51 [ERROR] - Erro durante o processo: argument 1 must be a string or unicode object
+Traceback (most recent call last):
+  File "C:\Users\gabri\Downloads\DW_ATENDIMENTOS_CRM\main.py", line 33, in main
+    conn = connect_sql_server(CONN_STRING)
+  File "C:\Users\gabri\Downloads\DW_ATENDIMENTOS_CRM\mods\sql_server.py", line 5, in connect_sql_server
+    conn = pyodbc.connect(conn_str)
+TypeError: argument 1 must be a string or unicode object
+2025-09-04 18:21:15 [INFO] - Iniciando o processo de atualização de dados.
+2025-09-04 18:21:15 [INFO] - Carregando query SQL.
+2025-09-04 18:21:15 [INFO] - Conectando ao SQL Server.
+2025-09-04 18:21:17 [INFO] - Executando a consulta.
