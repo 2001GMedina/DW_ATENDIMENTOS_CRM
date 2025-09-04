@@ -1,0 +1,2 @@
+SERVER_CONN_STRING="DRIVER={ODBC Driver 18 for SQL Server};SERVER=162.215.175.144;DATABASE=admin_crmasbevi;UID=asbevi_tech;PWD=Atlas032025*;Encrypt=no;TrustServerCertificate=yes"
+AZURE_CONN_STRING=""
