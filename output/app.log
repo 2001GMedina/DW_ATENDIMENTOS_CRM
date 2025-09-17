@@ -78,3 +78,7 @@ TypeError: argument 1 must be a string or unicode object
 2025-09-04 18:21:15 [INFO] - Carregando query SQL.
 2025-09-04 18:21:15 [INFO] - Conectando ao SQL Server.
 2025-09-04 18:21:17 [INFO] - Executando a consulta.
+2025-09-17 14:41:09 [INFO] - Iniciando o processo de atualização de dados.
+2025-09-17 14:41:09 [INFO] - Carregando query SQL.
+2025-09-17 14:41:09 [INFO] - Conectando ao SQL Server.
+2025-09-17 14:41:11 [INFO] - Executando a consulta.
